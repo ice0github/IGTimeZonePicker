@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		864BCDE51BA00B5700BE4778 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 864BCDE41BA00B5700BE4778 /* main.m */; };
+		864BCDE81BA00B5700BE4778 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 864BCDE71BA00B5700BE4778 /* AppDelegate.m */; };
+		864BCDEB1BA00B5700BE4778 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 864BCDEA1BA00B5700BE4778 /* ViewController.m */; };
+		864BCDEE1BA00B5700BE4778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 864BCDEC1BA00B5700BE4778 /* Main.storyboard */; };
+		864BCDF01BA00B5700BE4778 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 864BCDEF1BA00B5700BE4778 /* Images.xcassets */; };
+		864BCDF31BA00B5700BE4778 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 864BCDF11BA00B5700BE4778 /* LaunchScreen.xib */; };
+		864BCDFF1BA00B5700BE4778 /* IGTimeZonePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 864BCDFE1BA00B5700BE4778 /* IGTimeZonePickerTests.m */; };
+		864BCE281BA00BB900BE4778 /* IGTimeZonePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 864BCE271BA00BB900BE4778 /* IGTimeZonePicker.m */; };
+		864BCE2B1BA00D7700BE4778 /* IGTimeZoneItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 864BCE2A1BA00D7700BE4778 /* IGTimeZoneItemView.m */; };
+		864BCE2E1BA0108900BE4778 /* IGTimeZone.m in Sources */ = {isa = PBXBuildFile; fileRef = 864BCE2D1BA0108900BE4778 /* IGTimeZone.m */; };
+		864BCE311BA02DD200BE4778 /* IGTimeZoneTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 864BCE301BA02DD200BE4778 /* IGTimeZoneTool.m */; };
+		864BCE351BA0302700BE4778 /* NSDate+Escort.m in Sources */ = {isa = PBXBuildFile; fileRef = 864BCE341BA0302700BE4778 /* NSDate+Escort.m */; };
+		864BCE381BA0350500BE4778 /* NSDate+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 864BCE371BA0350500BE4778 /* NSDate+Helper.m */; };
+		864BCE3B1BA070E800BE4778 /* IGMinuteIntervalArithmeticTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 864BCE3A1BA070E800BE4778 /* IGMinuteIntervalArithmeticTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		864BCDF91BA00B5700BE4778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 864BCDD71BA00B5700BE4778 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 864BCDDE1BA00B5700BE4778;
+			remoteInfo = IGTimeZonePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		864BCDDF1BA00B5700BE4778 /* IGTimeZonePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IGTimeZonePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		864BCDE31BA00B5700BE4778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		864BCDE41BA00B5700BE4778 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		864BCDE61BA00B5700BE4778 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		864BCDE71BA00B5700BE4778 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		864BCDE91BA00B5700BE4778 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		864BCDEA1BA00B5700BE4778 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		864BCDED1BA00B5700BE4778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		864BCDEF1BA00B5700BE4778 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		864BCDF21BA00B5700BE4778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		864BCDF81BA00B5700BE4778 /* IGTimeZonePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IGTimeZonePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		864BCDFD1BA00B5700BE4778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		864BCDFE1BA00B5700BE4778 /* IGTimeZonePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGTimeZonePickerTests.m; sourceTree = "<group>"; };
+		864BCE261BA00BB900BE4778 /* IGTimeZonePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGTimeZonePicker.h; sourceTree = "<group>"; };
+		864BCE271BA00BB900BE4778 /* IGTimeZonePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGTimeZonePicker.m; sourceTree = "<group>"; };
+		864BCE291BA00D7700BE4778 /* IGTimeZoneItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGTimeZoneItemView.h; sourceTree = "<group>"; };
+		864BCE2A1BA00D7700BE4778 /* IGTimeZoneItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGTimeZoneItemView.m; sourceTree = "<group>"; };
+		864BCE2C1BA0108900BE4778 /* IGTimeZone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGTimeZone.h; sourceTree = "<group>"; };
+		864BCE2D1BA0108900BE4778 /* IGTimeZone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGTimeZone.m; sourceTree = "<group>"; };
+		864BCE2F1BA02DD200BE4778 /* IGTimeZoneTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGTimeZoneTool.h; sourceTree = "<group>"; };
+		864BCE301BA02DD200BE4778 /* IGTimeZoneTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGTimeZoneTool.m; sourceTree = "<group>"; };
+		864BCE331BA0302700BE4778 /* NSDate+Escort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Escort.h"; sourceTree = "<group>"; };
+		864BCE341BA0302700BE4778 /* NSDate+Escort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Escort.m"; sourceTree = "<group>"; };
+		864BCE361BA0350500BE4778 /* NSDate+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Helper.h"; sourceTree = "<group>"; };
+		864BCE371BA0350500BE4778 /* NSDate+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Helper.m"; sourceTree = "<group>"; };
+		864BCE391BA070E800BE4778 /* IGMinuteIntervalArithmeticTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGMinuteIntervalArithmeticTool.h; sourceTree = "<group>"; };
+		864BCE3A1BA070E800BE4778 /* IGMinuteIntervalArithmeticTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGMinuteIntervalArithmeticTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		864BCDDC1BA00B5700BE4778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		864BCDF51BA00B5700BE4778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		864BCDD61BA00B5700BE4778 = {
+			isa = PBXGroup;
+			children = (
+				864BCDE11BA00B5700BE4778 /* IGTimeZonePicker */,
+				864BCDFB1BA00B5700BE4778 /* IGTimeZonePickerTests */,
+				864BCDE01BA00B5700BE4778 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		864BCDE01BA00B5700BE4778 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				864BCDDF1BA00B5700BE4778 /* IGTimeZonePicker.app */,
+				864BCDF81BA00B5700BE4778 /* IGTimeZonePickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		864BCDE11BA00B5700BE4778 /* IGTimeZonePicker */ = {
+			isa = PBXGroup;
+			children = (
+				864BCE321BA0302700BE4778 /* Vendor */,
+				864BCE251BA00B8000BE4778 /* IGTimeZonePicker */,
+				864BCDE61BA00B5700BE4778 /* AppDelegate.h */,
+				864BCDE71BA00B5700BE4778 /* AppDelegate.m */,
+				864BCDE91BA00B5700BE4778 /* ViewController.h */,
+				864BCDEA1BA00B5700BE4778 /* ViewController.m */,
+				864BCDEC1BA00B5700BE4778 /* Main.storyboard */,
+				864BCDEF1BA00B5700BE4778 /* Images.xcassets */,
+				864BCDF11BA00B5700BE4778 /* LaunchScreen.xib */,
+				864BCDE21BA00B5700BE4778 /* Supporting Files */,
+			);
+			path = IGTimeZonePicker;
+			sourceTree = "<group>";
+		};
+		864BCDE21BA00B5700BE4778 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				864BCDE31BA00B5700BE4778 /* Info.plist */,
+				864BCDE41BA00B5700BE4778 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		864BCDFB1BA00B5700BE4778 /* IGTimeZonePickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				864BCDFE1BA00B5700BE4778 /* IGTimeZonePickerTests.m */,
+				864BCDFC1BA00B5700BE4778 /* Supporting Files */,
+			);
+			path = IGTimeZonePickerTests;
+			sourceTree = "<group>";
+		};
+		864BCDFC1BA00B5700BE4778 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				864BCDFD1BA00B5700BE4778 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		864BCE251BA00B8000BE4778 /* IGTimeZonePicker */ = {
+			isa = PBXGroup;
+			children = (
+				864BCE2C1BA0108900BE4778 /* IGTimeZone.h */,
+				864BCE2D1BA0108900BE4778 /* IGTimeZone.m */,
+				864BCE261BA00BB900BE4778 /* IGTimeZonePicker.h */,
+				864BCE271BA00BB900BE4778 /* IGTimeZonePicker.m */,
+				864BCE291BA00D7700BE4778 /* IGTimeZoneItemView.h */,
+				864BCE2A1BA00D7700BE4778 /* IGTimeZoneItemView.m */,
+				864BCE2F1BA02DD200BE4778 /* IGTimeZoneTool.h */,
+				864BCE301BA02DD200BE4778 /* IGTimeZoneTool.m */,
+				864BCE391BA070E800BE4778 /* IGMinuteIntervalArithmeticTool.h */,
+				864BCE3A1BA070E800BE4778 /* IGMinuteIntervalArithmeticTool.m */,
+			);
+			path = IGTimeZonePicker;
+			sourceTree = "<group>";
+		};
+		864BCE321BA0302700BE4778 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				864BCE361BA0350500BE4778 /* NSDate+Helper.h */,
+				864BCE371BA0350500BE4778 /* NSDate+Helper.m */,
+				864BCE331BA0302700BE4778 /* NSDate+Escort.h */,
+				864BCE341BA0302700BE4778 /* NSDate+Escort.m */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		864BCDDE1BA00B5700BE4778 /* IGTimeZonePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 864BCE021BA00B5700BE4778 /* Build configuration list for PBXNativeTarget "IGTimeZonePicker" */;
+			buildPhases = (
+				864BCDDB1BA00B5700BE4778 /* Sources */,
+				864BCDDC1BA00B5700BE4778 /* Frameworks */,
+				864BCDDD1BA00B5700BE4778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IGTimeZonePicker;
+			productName = IGTimeZonePicker;
+			productReference = 864BCDDF1BA00B5700BE4778 /* IGTimeZonePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		864BCDF71BA00B5700BE4778 /* IGTimeZonePickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 864BCE051BA00B5700BE4778 /* Build configuration list for PBXNativeTarget "IGTimeZonePickerTests" */;
+			buildPhases = (
+				864BCDF41BA00B5700BE4778 /* Sources */,
+				864BCDF51BA00B5700BE4778 /* Frameworks */,
+				864BCDF61BA00B5700BE4778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				864BCDFA1BA00B5700BE4778 /* PBXTargetDependency */,
+			);
+			name = IGTimeZonePickerTests;
+			productName = IGTimeZonePickerTests;
+			productReference = 864BCDF81BA00B5700BE4778 /* IGTimeZonePickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		864BCDD71BA00B5700BE4778 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "桂强 何";
+				TargetAttributes = {
+					864BCDDE1BA00B5700BE4778 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					864BCDF71BA00B5700BE4778 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 864BCDDE1BA00B5700BE4778;
+					};
+				};
+			};
+			buildConfigurationList = 864BCDDA1BA00B5700BE4778 /* Build configuration list for PBXProject "IGTimeZonePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 864BCDD61BA00B5700BE4778;
+			productRefGroup = 864BCDE01BA00B5700BE4778 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				864BCDDE1BA00B5700BE4778 /* IGTimeZonePicker */,
+				864BCDF71BA00B5700BE4778 /* IGTimeZonePickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		864BCDDD1BA00B5700BE4778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864BCDEE1BA00B5700BE4778 /* Main.storyboard in Resources */,
+				864BCDF31BA00B5700BE4778 /* LaunchScreen.xib in Resources */,
+				864BCDF01BA00B5700BE4778 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		864BCDF61BA00B5700BE4778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		864BCDDB1BA00B5700BE4778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864BCE2E1BA0108900BE4778 /* IGTimeZone.m in Sources */,
+				864BCDEB1BA00B5700BE4778 /* ViewController.m in Sources */,
+				864BCDE81BA00B5700BE4778 /* AppDelegate.m in Sources */,
+				864BCE381BA0350500BE4778 /* NSDate+Helper.m in Sources */,
+				864BCE2B1BA00D7700BE4778 /* IGTimeZoneItemView.m in Sources */,
+				864BCE351BA0302700BE4778 /* NSDate+Escort.m in Sources */,
+				864BCE311BA02DD200BE4778 /* IGTimeZoneTool.m in Sources */,
+				864BCE281BA00BB900BE4778 /* IGTimeZonePicker.m in Sources */,
+				864BCE3B1BA070E800BE4778 /* IGMinuteIntervalArithmeticTool.m in Sources */,
+				864BCDE51BA00B5700BE4778 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		864BCDF41BA00B5700BE4778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864BCDFF1BA00B5700BE4778 /* IGTimeZonePickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		864BCDFA1BA00B5700BE4778 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 864BCDDE1BA00B5700BE4778 /* IGTimeZonePicker */;
+			targetProxy = 864BCDF91BA00B5700BE4778 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		864BCDEC1BA00B5700BE4778 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				864BCDED1BA00B5700BE4778 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		864BCDF11BA00B5700BE4778 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				864BCDF21BA00B5700BE4778 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		864BCE001BA00B5700BE4778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		864BCE011BA00B5700BE4778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		864BCE031BA00B5700BE4778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IGTimeZonePicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		864BCE041BA00B5700BE4778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IGTimeZonePicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		864BCE061BA00B5700BE4778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IGTimeZonePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IGTimeZonePicker.app/IGTimeZonePicker";
+			};
+			name = Debug;
+		};
+		864BCE071BA00B5700BE4778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IGTimeZonePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IGTimeZonePicker.app/IGTimeZonePicker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		864BCDDA1BA00B5700BE4778 /* Build configuration list for PBXProject "IGTimeZonePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				864BCE001BA00B5700BE4778 /* Debug */,
+				864BCE011BA00B5700BE4778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		864BCE021BA00B5700BE4778 /* Build configuration list for PBXNativeTarget "IGTimeZonePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				864BCE031BA00B5700BE4778 /* Debug */,
+				864BCE041BA00B5700BE4778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		864BCE051BA00B5700BE4778 /* Build configuration list for PBXNativeTarget "IGTimeZonePickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				864BCE061BA00B5700BE4778 /* Debug */,
+				864BCE071BA00B5700BE4778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 864BCDD71BA00B5700BE4778 /* Project object */;
+}
