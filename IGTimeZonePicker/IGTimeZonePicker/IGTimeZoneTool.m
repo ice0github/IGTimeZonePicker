@@ -7,7 +7,7 @@
 //
 
 #import "IGTimeZoneTool.h"
-#import "NSDate+Helper.h"
+#import "NSDate+IGTool.h"
 
 @implementation IGTimeZoneTool
 

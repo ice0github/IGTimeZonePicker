@@ -7,7 +7,7 @@
 //
 
 #import "IGTimeZone.h"
-#import "NSDate+Escort.h"
+#import "NSDate+IGTool.h"
 
 @implementation IGTimeZone
 @synthesize title,startDate,endDate,tag,extra;

@@ -7,8 +7,7 @@
 //
 
 #import "IGTimeZonePicker.h"
-#import "NSDate+Escort.h"
-#import "NSDate+Helper.h"
+#import "NSDate+IGTool.h"
 
 #import "IGTimeZoneTool.h"
 #import "IGMinuteIntervalArithmeticTool.h"
